@@ -41,7 +41,6 @@ class Solution{
             solve(m, n, ans, newX, newY, visited, path);
             path.pop_back();
         }
-        
         //to go up
         newX = x - 1;
         newY = y;
